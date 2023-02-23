@@ -1,0 +1,79 @@
+body{
+	margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+nav{
+	background-color: #CCD996
+}
+
+ul{
+	margin: 0px;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+li{
+	margin: 20px 10px;
+}
+
+#header-text{
+	background-image: url(https://images.unsplash.com/photo-1658526434968-65d9008a7a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1213&q=80);
+	height: 500px;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1{
+	animation: pulse;
+	animation-duration: 0s;
+	margin: 0px;
+}
+
+h3{
+	animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 5s; /* don't forget to set a duration! */
+}
+
+section{
+	background-color: white;
+	color: black;
+}
+
+#section1{
+    background-color: #9BA557;
+	padding: 20px;
+	min-height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.sec1-text{
+	background-color: #7B9488;
+	width: 300px;
+	border: 5 px solid black;
+	padding: 40px;
+	margin: 20px;
+	text-align: center;
+}
+
+#section2{
+}
+
+.carousel slide{
+}
+
+#section3{
+	height: 300px;
+	padding: 50px;
+}
